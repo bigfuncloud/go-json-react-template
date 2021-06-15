@@ -1,0 +1,18 @@
+{
+  "name": "@BFC_APP_DOMAIN@",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "esbuild frontend/index.tsx --bundle --sourcemap --outdir=out/static"
+  },
+  "dependencies": {
+    "esbuild": "^0.12.3",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.16.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5"
+  }
+}

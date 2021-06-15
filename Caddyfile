@@ -1,0 +1,7 @@
+:80 {
+    route /api/* {
+        reverse_proxy localhost:3030
+    }
+    root * out/static
+    file_server
+}
